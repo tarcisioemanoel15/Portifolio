@@ -52,3 +52,10 @@ footer {
   background-color: rgb(143, 147, 150);
   text-align: center;
 }
+
+@media screen and (max-width:750px) {
+  .img1 {
+    display: none;
+  }
+
+}
