@@ -16,6 +16,8 @@ https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/0.html
 <!-- para ver mais 0.html 1.html ... -->
 https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/displayGrid/0.html
 
+https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/displayGrid/1.html
+
 
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
