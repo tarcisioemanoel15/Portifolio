@@ -16,7 +16,7 @@ let fotos = [
 
 ];
 
-function TrocarFotos(foto) { document.querySelector('.imagens').src = './imgs/' + fotos[foto]; }
+function TrocarFotos(foto) { document.querySelector('.imagens').src = './imgs/' += fotos[foto]; }
 
 let fotoAtual = 0;
 TrocarFotos(fotoAtual);
