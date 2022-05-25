@@ -30,6 +30,7 @@
       text-shadow: 0px 0px 10px rgb(100, 98, 98);
     }
 
+    /* */
     .div:hover {
       width: 1300px;
       height: 1000px;
@@ -46,10 +47,53 @@
       background-attachment: fixed;
     }
 
+    /* */
     .div1:hover {
       width: 1300px;
       height: 1000px;
       transition: 2000ms;
+    }
+
+    @media screen and (max-width: 375px) {
+
+      body {
+        background-color: rgb(3, 15, 48);
+
+      }
+
+
+      .div {
+        width: 300px;
+        height: 200px;
+      }
+
+      .div:hover {
+        width: 330px;
+        height: 300px;
+      }
+
+
+      .div1 {
+        width: 300px;
+        height: 300px;
+        background-position: top;
+        background-size: 300px 300px;
+        background-repeat: no-repeat;
+      }
+
+      .div1:hover {
+        width: 330px;
+        height: 350px;
+        background-size: 330px 390px;
+      }
+
+
+
+
+
+
+
+
     }
   </style>
 
