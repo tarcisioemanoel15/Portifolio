@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container {
+  color: aliceblue;
+  background-color: rgb(21, 243, 232);
+  display: grid;
+  /* border: 2px solid blue; */
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: 200px; */
+
+  grid-template-areas:
+    'box1 box1 box1 '
+    'box2 box2 box3 '
+    'box2 box2 box3 '
+
+    'box4 box4 box4';
+}
+
+.box {
+  /* border: 2px solid gold; */
+}
+
+.box1 {
+  grid-area: box1;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  padding: 3%;
+  text-shadow: 0px 0px 10px white;
+}
+
+.box2 {
+  padding: 25px;
+  grid-area: box2;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box2 img {
+  width: 80%;
+  /* width: 150px; */
+  align-items: center;
+  margin: 10px;
+}
+
+.box2 p {
+  background-color: rgba(58, 50, 50, 0.76);
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.box3 {
+  grid-area: box3;
+}
+
+
+.box3 h5 img {
+  display: grid;
+  width: 90%;
+  padding: 15px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.box3 h5 p {
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+
+}
+
+
+.frete {
+  background-color: rgb(248, 242, 242);
+
+  margin: auto;
+
+}
+
+.box3 .frete p {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.box3 .frete img {
+  width: 100%;
+}
+
+.b3 {
+
+  margin: 80px 20px 20px 20px;
+}
+
+.b3 img {
+  width: 100%;
+  margin: 5px;
+}
+
+
+/*  */
+
+.boxx3 {
+  display: none;
+  margin: 80px 20px 20px 20px;
+}
+
+.boxx3 img {
+  width: 100%;
+  margin: 5px;
+}
+
+/*  */
+
+.box4 {
+  grid-area: box4;
+  margin: auto;
+  padding: 20px;
+}
+
+.box4 img {
+
+  border-radius: 15px;
+}
+
+.box4 p {
+  text-align: center;
+}
+
+@media screen and (max-width: 530px) {
+  .container {
+    background-color: rgb(21, 243, 232);
+
+  }
+
+  .box1 {
+    font-size: 20px;
+  }
+
+  .box2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+
+
+  .box3 .frete p {
+    font-size: 15px;
+  }
+
+  .box3 .frete img {
+    width: 50%;
+  }
+
+  .boxx3 {
+    display: block;
+  }
+}
