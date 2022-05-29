@@ -18,3 +18,11 @@ https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/displayGrid/0.htm
 
 https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/displayGrid/1.html
 
+
+<!-- Jogo da Velha -->
+https://tarcisioemanoel15.github.io/portifolio/jogoDaVelha/
+
+<!-- Menu -->
+https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/menuBurger/
+
+
