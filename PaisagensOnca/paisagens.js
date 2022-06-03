@@ -1,3 +1,5 @@
+// função desativada 
+
 //Paisagens
 
 let fotos = [

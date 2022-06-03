@@ -5,10 +5,10 @@
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   height: 500px;
   margin: auto;
-  border: 2px solid rgb(31, 219, 6);
+  border: 2px solid rgb(38, 243, 65);
   position: relative;
   overflow: hidden;
 
