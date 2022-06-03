@@ -9,12 +9,14 @@ body {
 }
 
 .game-board {
-  width: 80%;
+  width: 100%;
   height: 500px;
-  border: 2px solid rgb(145, 132, 19);
+  border-bottom: 15px solid rgb(11, 199, 20);
   margin: auto;
   position: relative;
   overflow: hidden;
+
+  background: linear-gradient(#87ceeb, #e8f6ff);
 }
 
 .pipe {
@@ -36,6 +38,27 @@ body {
   animation: jump 500ms ease-in-out;
 }
 
+
+
+.nuvens {
+  position: absolute;
+  width: 500px;
+
+  animation: nuven infinite 20s linear;
+}
+
+
+@keyframes nuven {
+  from {
+    right: -500px;
+
+  }
+
+  to {
+    right: 100%;
+
+  }
+}
 
 @keyframes pipe-animation {
   from {
