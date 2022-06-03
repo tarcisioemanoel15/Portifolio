@@ -20,10 +20,11 @@
 
 
 .imagens1 {
-  width: 100%;
+  width: 30%;
   position: absolute;
 
-  bottom: -250px;
+  bottom: -90px;
+  right: 40%;
   /* animation: movimentoOnca 5s linear infinite; */
 }
 

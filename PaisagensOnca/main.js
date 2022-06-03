@@ -1,5 +1,5 @@
-
-// Onsa
+// função desativada gif criada no lugar da função
+// esta função é a que da movimento para onça
 
 window.onload = function () {
   img0();
