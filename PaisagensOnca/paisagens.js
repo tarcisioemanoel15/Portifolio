@@ -1,4 +1,4 @@
-// função desativada 
+// função desativada subistituir por gif
 
 //Paisagens
 
