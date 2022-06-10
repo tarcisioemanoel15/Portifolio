@@ -1,0 +1,18 @@
+link para teste ==--> https://api.github.com/users/torvalds
+outro --------------> https://api.github.com/users/microsoft
+
+http://localhost:8080/PesquisandoPerfil/GitHub/microsoft
+
+
+
+npm init
+npm install express --save
+npm install axios --save
+
+cria um arquivo js ex=> app.js
+
+uma pasta e um arquivo js com o nome controller
+
+
+localhost:8080/PesquisandoPerfil/GitHub/microsoft
+

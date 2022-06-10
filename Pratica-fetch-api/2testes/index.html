@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pratica api lista</title>
+
+  <style>
+    .rlimg {
+      width: 200px;
+      height: 200px;
+      background-color: aquamarine;
+      border-radius: 50%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- URL usada -->
+  <!-- -->
+
+  <main>
+
+    <h1>Testes</h1>
+    <button onclick="buscaLi()">Buscar-teste</button>
+    <ul class="testee"></ul>
+
+  </main>
+
+  <script>
+    function buscaLi() {
+
+      const lista = document.querySelector('.testee');
+      fetch('https://api.github.com/users/microsoft')
+        .then(response => response.json())
+        .then(data => {
+
+          lista.innerHTML = `
+          <h1>${data.name}</h1>
+          <img class='rlimg' src='${data.avatar_url}}'/>
+          <h6>${data.gists_url}</h6>
+          <h2>${data.bio}</h2>
+          `;
+
+          console.log(data);
+
+        })
+        .catch(e => { console.log('deu erro') })
+    }
+  </script>
+</body>
+
+</html>
+
+<!-- 
+
+
+The Open Movie Database (OMDb)
+https://www.omdbapi.com/
+
+Nomics Cryptocurrency & Bitcoin API
+https://nomics.com/docs/
+
+
+portal de noticias
+New York Tİmes API
+https://developer.nytimes.com/
+
+Fixer
+https://fixer.io/
+
+Deck of Cards
+https://deckofcardsapi.com/
+
+Open Weather Map
+https://openweathermap.org/api/?ref=d...
+
+ -->
