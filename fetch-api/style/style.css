@@ -4,83 +4,35 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 30px;
-}
-
 .container {
-  width: 100%;
-  height: 80vh;
-  background-color: rgb(49, 56, 56);
-  margin: auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-
+  border-radius: 70px 10px 10px 10px;
+  color: aliceblue;
+  background: rgb(36, 37, 34);
+  max-width: 400px;
+  margin: 3% auto;
+  padding: 2%;
   text-align: center;
-  padding: 10px;
-  color: rgb(255, 255, 255);
-  border-radius: 250px 9px 9px 9px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-form {
-  margin: 20px;
-  display: grid;
-  grid-template-columns: repeat(1, auto);
+.container h1 {
+  margin-bottom: 15%;
 }
 
 .form-group {
   display: grid;
-  width: 70%;
-  margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: auto;
+  margin-bottom: 8%;
 }
 
 .form-group input {
-  text-align: right;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 10px;
-  height: 25px;
-  border: none;
-  box-shadow: 0px 0px 10px rgb(148, 134, 134);
-  background-color: rgb(192, 194, 197);
+  width: 65%;
+  margin: auto;
 }
 
-.form-group #cep {
-  background-color: white;
-}
-
-
-@media (max-width:680px) {
-  h1 {
-    font-size: 20px;
-  }
-
-  .container {
-    display: block;
-    border-radius: 100px 9px 9px 9px;
-    height: 90vh;
-  }
-
-  h1 {
-    margin: 30px;
-  }
-}
-
-
-@media (max-width:410px) {
-  h1 {
-    font-size: 15px;
-  }
-
-  .form-group input {
-    width: 150px;
+@media (max-width:350px) {
+  .container h1 {
+    font-size: 100%;
   }
 
 }
