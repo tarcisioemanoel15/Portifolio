@@ -26,3 +26,6 @@ https://tarcisioemanoel15.github.io/portifolio/jogoDaVelha/
 https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/menuBurger/
 
 
+https://tarcisioemanoel15.github.io/portifolio/fetch-api/
+
+
