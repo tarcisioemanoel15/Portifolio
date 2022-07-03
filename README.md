@@ -29,3 +29,12 @@ https://tarcisioemanoel15.github.io/portifolio/ParaPagDeVendas/menuBurger/
 https://tarcisioemanoel15.github.io/portifolio/fetch-api/
 
 
+<!-- curriculo -->
+https://tarcisioemanoel15.github.io/portifolio/Curriculo/curiculo.html
+
+https://tarcisioemanoel15.github.io/portifolio/Curriculo/prImagem.html
+
+download
+https://tarcisioemanoel15.github.io/portifolio/Curriculo/Curr%C3%ADculo%20Tarc%C3%ADsio.docx
+
+
