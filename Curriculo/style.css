@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+main {
+  background-color: rgb(7, 7, 7);
+  background-image: url('./imgs/Algoritmos.png');
+  max-width: 700px;
+  height: 500px;
+  margin: auto;
+  margin-top: 6%;
+}
+
+main>h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: rgb(252, 248, 250);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.658);
+  border-radius: 50px;
+  width: 50%;
+  margin: auto;
+  padding: 3px;
+}
+
+section>article {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.945);
+  border-radius: 20px;
+  color: white;
+  margin: 20px;
+}
+
+article>h1 {
+  text-align: center;
+  color: rgb(253, 255, 255);
+  padding: 25px;
+}
+
+.container {
+  display: flex;
+  align-items: self-end;
+}
+
+img {
+  display: flex;
+  margin: auto;
+}
+
+.caixa {
+  display: flex;
+  background-color: aliceblue;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 100%;
+  transition: 3s;
+  cursor: pointer;
+}
+
+
+.caixa:hover {
+  background-color: rgba(110, 98, 98, 0.575);
+  border: 2px solid rgba(53, 47, 47, 0.74);
+  box-shadow: 0px 5px 15px rgba(53, 47, 47, 0.74);
+  transition: 3s;
+
+
+}
+
+p {
+  text-align: center;
+  padding: 15px;
+  text-shadow: 0px 0px 15px black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  /* 
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  */
+
+  font-family: 'Bangers', cursive;
+  color: yellow;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0px 0px 10px rgb(247, 222, 6);
+  background-color: black;
+
+}
+
+
+@media screen and (max-width: 700px) {
+  main {}
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  .caixa {
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+  }
+
+  article>h1 {
+    padding: 10px;
+  }
+
+  h2 {
+    padding: 6px;
+  }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 445px) {
+  main>h1 {
+    width: 40%;
+    font-size: 20px;
+  }
+
+  article>h1 {
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+}
