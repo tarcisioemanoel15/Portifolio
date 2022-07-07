@@ -38,3 +38,6 @@ download
 https://tarcisioemanoel15.github.io/portifolio/Curriculo/Curr%C3%ADculo%20Tarc%C3%ADsio.docx
 
 
+
+
+https://tarcisioemanoel15.github.io/portifolio/Pratica-fetch-api/2testes/02/

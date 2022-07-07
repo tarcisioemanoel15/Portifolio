@@ -5,38 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
   <title>fetch api gitHUB</title>
-  <style>
-    body {
-      display: block;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      justify-items: center;
-      align-content: center;
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 5%;
-    }
-
-    li {
-      list-style: decimal;
-    }
-
-    img {
-      width: 100px;
-      border-radius: 20px;
-    }
-  </style>
 </head>
 
 <body>
-  <section>
-  </section>
-  <label for="">Buscar o seu aqui</label></br>
-  <input type="text" class="busca"></br>
-  <button onclick="inicia()" type="submit" class="inicia"> buscar</button></br>
-  <button type="submit" class="repo">repositorio</button>
-  <ul></ul>
+  <main>
+
+    <div class="contains">
+      <section>
+      </section>
+      <label for="">Buscar o seu aqui</label></br>
+      <input type="text" class="busca"></br>
+      <button onclick="inicia()" type="submit" class="inicia"> buscar</button></br>
+    </div>
+
+    <div class="lista">
+      <button type="submit" class="repo">listar repositorio</button>
+      <ul></ul>
+    </div>
+  </main>
   <script src="./fetch.js"></script>
 </body>
 
