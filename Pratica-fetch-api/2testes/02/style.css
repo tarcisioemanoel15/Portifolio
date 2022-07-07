@@ -70,12 +70,31 @@ li {
   }
 
   .repo {
-    width: 108%;
+    width: 112%;
   }
 
   .inicia {
     width: 112%;
   }
 
-  .item {}
+  input {
+    width: 109%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+
+  .item {
+    font-size: 85%;
+  }
+
+}
+
+
+@media screen and (max-width: 369px) {
+
+  .item {
+    font-size: 65%;
+  }
+
 }
