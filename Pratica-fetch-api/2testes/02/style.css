@@ -45,6 +45,7 @@ h1 {
 }
 
 .repo {
+
   width: 100%;
   margin-top: 28px;
 }
@@ -54,10 +55,10 @@ li {
 }
 
 @media screen and (max-width: 650px) {
+
   main {
     display: block;
     align-items: center;
-    margin: 30px;
   }
 
   .contains {
@@ -67,4 +68,14 @@ li {
   .lista {
     margin: auto;
   }
+
+  .repo {
+    width: 108%;
+  }
+
+  .inicia {
+    width: 112%;
+  }
+
+  .item {}
 }
