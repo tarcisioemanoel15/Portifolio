@@ -14,10 +14,10 @@
   <div class="container"></div>
 
   <script>
-    fetch('')
+    fetch('https://api.github.com/users/tarcisioemanoel15/repos')
       .then(response => response.json())
       .then(data => {
-        console.log(data.status)
+        console.log(data)
       })
   </script>
 </body>
