@@ -12,11 +12,25 @@
 
   <h1>Fetch</h1>
   <div class="container"></div>
+  <!-- fetch('https://api.github.com/users/tarcisioemanoel15') -->
+
 
   <script>
-    fetch('https://api.github.com/users/tarcisioemanoel15/repos')
+    const container = document.querySelector('.container');
+    fetch('https://api.github.com/users/tarcisioemanoel15')
       .then(response => response.json())
       .then(data => {
+        console.log(data)
+      })
+
+
+    fetch("https://api.github.com/repos/tarcisioemanoel15/Area-Musical")
+      .then(response => response.json())
+      .then(data => {
+        container.innerHTML = `
+  
+  <h1>${data.description}</h1>
+        `;
         console.log(data)
       })
   </script>

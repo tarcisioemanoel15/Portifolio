@@ -41,3 +41,6 @@ https://tarcisioemanoel15.github.io/portifolio/Curriculo/Curr%C3%ADculo%20Tarc%C
 
 
 https://tarcisioemanoel15.github.io/portifolio/Pratica-fetch-api/2testes/02/
+
+
+ https://tarcisioemanoel15.github.io/portifolio/siteBootStrap+jQuiry/index.html
