@@ -1,0 +1,126 @@
+colunas
+
+      <div class="container-fluid">
+      <div class="col-sm-4">
+      
+      <div class="container-fluid">
+      <div class="col-sm-6 col-md-4 col-lg-2">
+      <img class="icone" src="">
+
+
+linhas
+      <div class="exemplolinha2 red  col-sm-12 col-md-6"></div>
+      <div class="exemplolinha2 geen  col-sm-12 col-md-6"></div>
+
+centralizando linhas offset
+      <div class="row">
+      <div class="exemplolinha2 red col-sm-6 col-sm-offset-3  col-md-8 col-md-offset-2">
+
+
+centralizar texto
+
+      <div class="container">
+      <p class="text-center">
+      <p class="text-left">
+      <p class="right">
+      <p class="text-justify">
+
+
+Lista não ordenadaLista não ordenada
+      <ul class="list-inline">   li
+
+Lista ordenada
+      <ol class="list-unstyled">   li
+
+Lista de Definição
+      <dl class="dl-horizontal">   td  dd
+
+BOTOES Estilo
+
+      <button class="btn btn-primary">Principal</button>
+      <button class="btn btn-secundary">Secundário</button>
+      <button class="btn btn-success">Sucesso</button>
+      <button class="btn btn-info">Informação</button>
+      <button class="btn btn-warning">Aviso</button>
+      <button class="btn btn-danger">Perigo</button>
+
+BOTOES tamanho
+
+      <button class="btn btn-default">Padrão</button>
+      <button class="btn btn-default btn-lg">Largo</button>
+      <button class="btn btn-default btn-sm">Pequeno</button>
+      <button class="btn btn-default btn-xs">Muito pequeno</button>
+      <button class="btn btn-default btn-block">Block</button>
+
+
+BOTOES Extras
+
+      <button class="btn btn-default">
+      <button class="btn btn-default disabled">
+
+
+IMAGES
+
+       <div class="container">
+
+        <img src="" class="img-rounded">
+        <img src="" class="img-circle">
+        <img src="" class="img-thumbnail">
+
+        <img src="" class="img-responsive">
+
+
+CORES color 
+
+        <p class="text-primary">Lorem ipsum 
+        <p class="text-success">Saepe 
+        <p class="text-center text-info">Primis 
+        <p class="text-warning">Sed ex alii 
+        <p class="text-danger">Eu clita 
+
+CORdeFUNDO Background   
+
+        <p class="bg-primary">Lorem ipsum 
+        <p class="bg-success">Saepe democ
+        <p class="bg-info">Primis vocibus
+        <p class="bg-warning">Sed ex alii
+        <p class="bg-danger">Eu clita imp
+
+Tabela
+
+        <div class="container">
+        <table class="table table-bordered table-hover">
+        <tr class="success">
+
+        <td class="danger">110</td>
+
+VIDEOS
+
+          <h1 class="text-center">
+
+          <div class="embed-responsive embed-responsive-16by9 "> <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/5-_jR5NrewI?start=92" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+          </div>
+
+FORMULARUO input
+
+          <div class="container">
+          <form>
+          <div class="form-group">
+
+          <div class="checkbox">
+          <input class="btn btn-success pull-right" type="submit" value="Enviar">
+
+NOMEeEMAIL
+
+          <div class="container">
+          <form>
+          <div class="form-horizontal">
+
+          e repete
+          <div class="form-group">
+          <label class="col-sm-2 control-label" for="nome">Nome</label>
+          <div class="col-sm-10">
+          <input class="form-control" type="text" id="nome" placeholder="Seu nome">
