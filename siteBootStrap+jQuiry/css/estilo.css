@@ -1,10 +1,14 @@
 div.carousel-inner {
-  max-height: 200px;
+  max-height: 300px;
 }
 
 .input-group {
   margin-bottom: 57px;
   margin-top: 64px;
+}
+
+.colorTxt {
+  text-shadow: 0px 0px 9px white;
 }
 
 div.iconess {
@@ -23,6 +27,66 @@ div.iconess img {
 }
 
 
+.exemplolinha2 {
+  height: 200px;
+  background-color: aquamarine;
+}
+
+div.imgfooter {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+}
+
+div.imgfooter h1 {
+  text-align: center;
+}
+
+
+
+div.imgfooter img {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+
+}
+
+.contatoo {
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+.caixaFotos {
+
+  display: flex;
+}
+
+.retrato {
+  background-color: rgb(255, 42, 0);
+
+}
+
+.paisagen {
+  background-color: rgb(4, 68, 68);
+
+}
+
+
+/* Imagens */
+.altura {
+  width: 100px;
+  height: 251px;
+}
+
+.largura {
+  background-color: black;
+  width: 250px;
+  height: 100px;
+}
 
 @media (max-width:580px) {
   .bloco {
