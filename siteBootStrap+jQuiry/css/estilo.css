@@ -1,10 +1,14 @@
 div.carousel-inner {
-  max-height: 300px;
+  height: 300px;
+}
+
+.pednocarroc {
+  margin-top: 70px;
 }
 
 .input-group {
-  margin-bottom: 57px;
-  margin-top: 64px;
+  margin-bottom: 4px;
+  margin-top: 20px;
 }
 
 .colorTxt {
@@ -61,36 +65,65 @@ div.imgfooter img {
 
 
 .caixaFotos {
-
-  display: flex;
+  margin: 20px auto;
+  width: 90%;
+  text-align: center;
 }
 
-.retrato {
-  background-color: rgb(255, 42, 0);
-
+h1 {
+  text-align: center;
 }
 
+div.images1 {
+  width: 250px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.055);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 1.055);
+  border-radius: 20px 0px 20px 0px;
+  padding-top: 20px;
+}
+
+/* .retrato {} */
 .paisagen {
-  background-color: rgb(4, 68, 68);
-
+  background-color: rgba(150, 156, 156, 0.577);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px;
+  gap: 15px;
+  border-radius: 25px;
 }
-
 
 /* Imagens */
 .altura {
-  width: 100px;
-  height: 251px;
+  width: 150px;
+  height: 160px;
 }
 
 .largura {
   background-color: black;
   width: 250px;
-  height: 100px;
+  height: 135px;
 }
+
 
 @media (max-width:580px) {
   .bloco {
     display: grid;
   }
+}
 
+@media (max-width:990px) {
+  .paisagen {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:660px) {
+  .paisagen {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  div.images1 {
+    margin: auto;
+  }
 }

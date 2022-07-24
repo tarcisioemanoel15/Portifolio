@@ -23,7 +23,9 @@ function larguraMaior() {
     } else {
       imgs.classList.add('altura');
     }
+
   }
+
 }
 
 $(function () {
