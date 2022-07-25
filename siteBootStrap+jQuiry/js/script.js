@@ -3,7 +3,9 @@ OBS
 Este mine site foi só para 
 praticar;
 Então iginore as imagens e
-todo conteudo
+todo conteudo.
+
+👍👍👍👍👍✌️✌️✌️✌️✌️✌️✌️
 `);
 
 function buscarIMG() {
