@@ -1,3 +1,11 @@
+alert(`
+OBS
+Este mine site foi só para 
+praticar;
+Então iginore as imagens e
+todo conteudo
+`);
+
 function buscarIMG() {
   const paisagen = document.querySelector('.paisagen')
   //const retrato = document.querySelector('.retrato')
