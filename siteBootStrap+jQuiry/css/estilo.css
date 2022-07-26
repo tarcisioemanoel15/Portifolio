@@ -112,9 +112,13 @@ div.images1 {
   }
 }
 
-@media (max-width:990px) {
+@media (max-width:993px) {
   .paisagen {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  div.carousel-inner {
+    height: 200px;
   }
 }
 
