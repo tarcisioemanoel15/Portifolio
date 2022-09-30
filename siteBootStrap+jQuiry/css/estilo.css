@@ -36,34 +36,6 @@ div.iconess img {
   background-color: aquamarine;
 }
 
-div.imgfooter {
-  position: absolute;
-  padding: 20px;
-  width: 100%;
-  background-color: black;
-  color: aliceblue;
-}
-
-div.imgfooter h1 {
-  text-align: center;
-}
-
-
-
-div.imgfooter img {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-
-}
-
-.contatoo {
-  text-align: center;
-  padding-top: 15px;
-}
-
-
 .caixaFotos {
   margin: 20px auto;
   width: 90%;
@@ -104,6 +76,24 @@ div.images1 {
   width: 250px;
   height: 135px;
 }
+
+
+.caixacontainer {
+  background-color: black;
+  text-align: center;
+  padding: 2px 15px 15px 15px;
+}
+
+.caixacontainer h1 {
+  font-size: 20px;
+}
+
+.caixacontainer img {
+  background-color: aliceblue;
+  width: 20px;
+  height: 20px;
+}
+
 
 
 @media (max-width:580px) {
